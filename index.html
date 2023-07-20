@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats</title>
+</head>
+<body>
+    <main>
+      <h1>Cats</h1>
+      <section>
+        <h2>Cat Photos</h2>
+        <!-- TODO: Add link to cat photos -->
+        <p>See more <a href="cat photos.html">cat photos</a> in our gallery.</p>
+        <a href="cat photos.html"><img src="catphotos1/142774.jpg" height="300" alt="A cute white cat"></a>
+      </section>
+      <section>
+        <h2>Cat Lists</h2>
+        <h3>Things cats love:</h3>
+        <ul>
+          <li>toys</li>
+          <li>hiding in the boxes</li>
+          <li>sleeping</li>
+        </ul>
+        <figure>
+          <img src="catphotos1/indir.jpg" height="200" alt="A sleeping cat">
+          <figcaption>Cats <em>love</em> sleeping.</figcaption>  
+        </figure>
+        <h3>Top 3 things cats hate:</h3>
+        <ol>
+          <li>too much attention</li>
+          <li>medicine</li>
+          <li>baths</li>
+        </ol>
+        <figure>
+          <img src="catphotos1/indir (2).jpg" height="250"alt="a washed cat">
+          <figcaption>Cats <strong>hate</strong> taking baths.</figcaption>  
+        </figure>
+      </section>
+      <section>
+        <h2>Cat Form</h2>
+        <form action="https://freecatphotoapp.com/submit-cat-photo">
+          <fieldset>
+            <legend>Is your cat an indoor or outdoor cat?</legend>
+            <label><input id="indoor" type="radio" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+            <label><input id="outdoor" type="radio" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+          </fieldset>
+          <fieldset>
+            <legend>What's your cat's personality?</legend>
+            <input id="agreeable" type="checkbox" name="personality" value="agreeable" checked> <label for="agreeable">Agreeable</label>
+            <input id="dominant" type="checkbox" name="personality" value="lazy"> <label for="dominant">Dominant</label>
+            <input id="energetic" type="checkbox" name="personality" value="energetic"> <label for="energetic">Energetic</label>
+          </fieldset>
+          <input type="text" name="catphotourl" placeholder="cat photo URL" required>
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>
+        İrem Albak
+      </p>
+    </footer>
+    
+</body>
+</html>
